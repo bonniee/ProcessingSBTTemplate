@@ -1,4 +1,4 @@
-name := "bazbuzz"
+name := "ProcessingSBTTemplate"
 
 version := "0.1"
 
