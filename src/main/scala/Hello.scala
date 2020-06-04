@@ -11,7 +11,7 @@ class Hello extends PApplet {
   // We have to use `settings` instead of `setup` for controlling the window size,
   // because this is outside of the PDE.
   override def settings(): Unit = {
-    fullScreen()
+    size(800, 800)
   }
 
   override def draw(): Unit = {
