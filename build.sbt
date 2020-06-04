@@ -4,4 +4,7 @@ version := "0.1"
 
 scalaVersion := "2.13.2"
 
-//mainClass in (Compile, run) := Some("Hello.scala")
+// For some reason, 3.5.x isn't available via Maven yet
+libraryDependencies ++= Seq(
+  "org.processing" % "core" % "3.3.7"
+)
